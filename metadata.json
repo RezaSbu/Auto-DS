@@ -1,0 +1,5 @@
+{
+  "name": "Auto DataScience",
+  "description": "An AI-powered Data Science assistant that analyzes your CSV data, creates a custom roadmap based on your goals, and generates Python code.",
+  "requestFramePermissions": []
+}
