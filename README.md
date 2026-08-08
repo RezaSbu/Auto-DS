@@ -1,4 +1,6 @@
 # Auto-DS 🤖📊
+[![CI](https://github.com/RezaSbu/Auto-DS/actions/workflows/ci.yml/badge.svg)](https://github.com/RezaSbu/Auto-DS/actions/workflows/ci.yml)
+
 
 **AI-powered Data Science assistant** — upload a CSV, describe your goal, and get a custom analysis roadmap plus ready-to-run Python code.
 
