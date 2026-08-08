@@ -1,20 +1,38 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Auto-DS 🤖📊
 
-# Run and deploy your AI Studio app
+**AI-powered Data Science assistant** — upload a CSV, describe your goal, and get a custom analysis roadmap plus ready-to-run Python code.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1p4s4CoT0KpS67heLZFk_Sy-pWd6n8opb
+Auto-DS uses **Google Gemini** to understand your dataset and goals, then:
+- Analyzes your CSV data
+- Builds a **custom roadmap** based on what you want to achieve
+- **Generates Python code** you can run for the analysis
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- React 19 + Vite
+- TypeScript
+- Google Gemini (`@google/genai`)
+- PapaParse (CSV parsing)
+- Tailwind CSS
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 📤 Upload your dataset (CSV)
+- 🎯 Describe your analysis goal in plain language
+- 🗺️ Receive a step-by-step data science roadmap
+- 🐍 Get generated Python code for each step
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+> Requires a Google Gemini API key.
+
+## License
+
+Free to use and modify.
